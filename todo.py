@@ -20,7 +20,8 @@ def main():
         print("2. View Tasks")
         print("3. Delete Task")
         print("4. Mark Task as Completed")
-        print("5. Exit")
+        print("5.Mark Task as Uncompleted")
+        print("6. Exit")
         choice = input("Choose an option (1-5): ")
         
         if choice == "1":
@@ -32,6 +33,8 @@ def main():
         elif choice == "4":
             print("Mark Task as Completed feature not implemented yet.")
         elif choice == "5":
+            print("Mark Task as Uncompleted feature not implemented yet.")
+        elif choice == "6":
             print("Exiting...")
             break
         else:
